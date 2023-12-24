@@ -1,0 +1,14 @@
+                       // Question: What is the purpose of the static keyword in Java?
+
+
+The static keyword in Java is used to create class-level members. It means that the member (method or variable) belongs to the class rather than an instance of the class.
+static members are shared among all instances of the class and can be accessed using the class name.
+
+Example:
+public class Example {
+    static int count = 0;  // static variable
+
+    static void incrementCount() {
+        count++;  // static method
+    }
+}
